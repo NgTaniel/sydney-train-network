@@ -1,0 +1,36 @@
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: 'flex';
+    /* justifyContent: 'Left';
+    alignItems: 'Left'; */
+    height: '100%'
+}
+
+.introduction{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: 'flex';
+    height: '100%'
+}
+
+.central-img{
+    height:50%;
+    width:50%;
+}
+
+.formers{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: 'flex';
+    /* justifyContent: 'Left';
+    alignItems: 'Left'; */
+    height: '100%',
+}
+
+.suburban{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* display: flex; */
+    height: '100%';
+}

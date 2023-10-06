@@ -1,0 +1,8 @@
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: 'flex';
+    /* justifyContent: 'Left';
+    alignItems: 'Left'; */
+    height: '100%',
+}
