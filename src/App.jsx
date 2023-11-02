@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/main';
+import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/about';
 import CityCircle from './pages/citycircle';
@@ -14,6 +14,7 @@ import T6 from './pages/t6';
 import T7 from './pages/t7';
 import T8 from './pages/t8';
 import T9 from './pages/t9';
+import Metro from './pages/metro'
   
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path='/' element={<About/>} />
-            <Route path='/citycircle' element={<CityCircle/>}/>
+            <Route path='/city-circle' element={<CityCircle/>}/>
             <Route path='/central' element={<Central/>}/>
             <Route path='/t1' element={<T1/>} />
             <Route path='/t2' element={<T2/>} />
@@ -34,6 +35,7 @@ function App() {
             <Route path='/t7' element={<T7/>} />
             <Route path='/t8' element={<T8/>} />
             <Route path='/t9' element={<T9/>} />
+            <Route path='/metro' element={<Metro/>} />
           </Routes>
         </Router>
       </div>
